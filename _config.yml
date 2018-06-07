@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Rob Caraway | Swift Developer
-subtitle: Over 1M Downloads
+title: Rob Caraway
+subtitle: Swift Developer | 1M+ Downloads
 description: Blog on Swift Development, App Growth, Fullstack development, software business and career by Rob Caraway
 keywords: 
 author: Rob Caraway
@@ -74,6 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: clean-blog
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
