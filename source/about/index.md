@@ -1,26 +1,35 @@
 ---
-title: About Rob
+title: Build Better Swift & iOS Apps with Rob
 ---
 
 <blockquote>"Rob is great! I highly recommend working with him if you get the chance!" – Noah Goodhart, Cofounder of <a href="https://moat.com/">Moat</a> (acquired by Oracle)</blockquote>
-<h4><strong>Why work with me? </strong></h4><ul>
- 	<li>My own apps have done over <strong>1 Million Downloads</strong> and were acquired</li>
- 	<li>My apps have been featured on Fox Business, IndieHackers, Nola.com and Yahoo!</li>
- 	<li>Top 5% of iOS contributors on StackOverflow</li>
- 	<li><strong>Built Moat's iOS app</strong>, the #1 ad search engine (acq by Oracle)</li>
- 	<li>Trained in UI, UX design</li>
- 	<li>Qualified to pinpoint engineering specific design problems, like faster loading, improving screen transitions and UI animations</li>
- 	<li>Cofounded a Startup that taught me the entire Software release lifecycle</li>
- 	<li><strong><em>Leadership Experience</em></strong> - I lead and manage Crush your Side Projects meetup in Austin, Texas</li>
- 	<li><strong><em>Fullstack chops</em></strong></li>: Node.js (used by this site), MongoDB, angular, HTML, CSS. 
-</ul> 
+### Why work with me?
+- My own apps have done over **1 Million Downloads and were acquired**
+- My apps have been featured on Fox Business, IndieHackers, Nola.com and Yahoo!
+- **Top 5% of iOS contributors on StackOverflow**
+- Built Moat's iOS app, the #1 ad search engine (acq by Oracle)
+- Trained in UI, UX design
+- Qualified to pinpoint engineering specific design problems, like faster loading, improving screen transitions and UI animations
+- Cofounded a Startup that taught me the entire Software release lifecycle
+- **Leadership Experience** - I lead and manage [Crush your Side Projects](https://www.meetup.com/Side-Project-Warriors/) meetup in Austin, Texas
 
-<h4><strong>How I can help your business grow:</strong></h4><ul>
- 	<li>Help your team build a new app from scratch or a new version</li>
- 	<li>Improving your app's engagement and downloads through growth engineering</li>
- 	<li>Improve your team's app development process to move faster</li>
-</ul>
-<h4><strong>Testimonials</strong></h4>
+
+### How I can help your business grow:
+- Help your team build a new app from scratch or a new version
+- Improving your app's engagement and downloads through growth engineering
+- Improve your team's app development process to move faster
+
+
+### What tech I usually work with
+- *App Development:* Swift, Objective C, & Xcode
+- *Continuous Intergration*: Jenkins, Appium
+- *Web Development:* Node.js, Angular.js, HTML, CSS, Markdown (this site uses all but Angular)
+- *Deployment & Platforms:*: Heroku, Github, Gitlab, Hexo, Wordpress
+- *Database and services*: MongoDB, Firebase
+- *Scripting:* Mostly Python, some bash
+- *Other Tools:* Cocoapods, Carthage, Fastlane, Mixpanel, NewRelic, Crashylitics, Flurry, Testflight
+
+### Testimonials
 <blockquote>Rob is a superstar. He’s a true leader – well organized, well thought out and a great communicator – <em><a href="https://web.archive.org/web/20171018082201/https://www.linkedin.com/in/2hourappreneur/"></blockquote>Steve Miller</a>, Founder/CEO Pragmatic Software (Sold to <a href="https://web.archive.org/web/20171018082201/https://smartbear.com/">SmartBear</a>)</em>
 
 
