@@ -13,7 +13,7 @@ title: About Rob
  	<li>Cofounded a Startup that taught me the entire Software release lifecycle</li>
  	<li><strong><em>Leadership Experience</em></strong> - I lead and manage Crush your Side Projects meetup in Austin, Texas</li>
  	<li><strong><em>Fullstack chops</em></strong></li>: Node.js (used by this site), MongoDB, angular, HTML, CSS. 
-</ul>
+</ul> 
 
 <h4><strong>How I can help your business grow:</strong></h4><ul>
  	<li>Help your team build a new app from scratch or a new version</li>
@@ -30,6 +30,6 @@ title: About Rob
 <blockquote>Intelligent, insightful, and most important of all thorough. You can be confident that any task he starts will be a resounding success.</blockquote> Gant Laborde – Chief Technology Strategist of <a href="https://web.archive.org/web/20171018082201/https://infinite.red/">Infinite Red</a>
 
 
-<blockquote>On my short list of people to ping if I ever started a company</blockquote> – Bryan Joseph, <a href="https://web.archive.org/web/20171018082201/http://revelry.co/">Revelry Labs</a>
+<blockquote>On my short list of people to ping if I ever started a company</blockquote>Bryan Joseph, <a href="https://web.archive.org/web/20171018082201/http://revelry.co/">Revelry Labs</a>
 
-<h3><strong>If you want to grow business through app development, <a href="mailto:robecaraway@gmail.com">let’s chat.</a></strong></h3></blockquote>
+<strong>If you want to grow business through app development, <a href="mailto:robecaraway@gmail.com">let’s chat.</a></strong>
