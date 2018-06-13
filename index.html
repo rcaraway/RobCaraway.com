@@ -159,7 +159,20 @@
 </nav>
 
     <!-- Main Content -->
-    <!-- Page Header -->
+    
+<!-- Cookie handling -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+<script type="text/javascript">
+var hideMainKey='hideMainPageKey';
+var hideMainPage = Cookies.get(hideMainKey);
+if (hideMainPage == null || hideMainPage == 'false') {
+    Cookies.set(hideMainKey, true, { expires: 4 });
+    window.open("http://robcaraway.pagedemo.co/","_self");
+} 
+</script>
+
+<!-- Page Header -->
 <!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
     <div class="container">
@@ -174,6 +187,7 @@
         </div>
     </div>
 </header>
+
 
 <!-- MailChimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
