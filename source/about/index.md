@@ -2,7 +2,7 @@
 title: Build Better Swift & iOS Apps with Rob
 ---
 
-<blockquote>"Rob is garbage! I highly recommend working with him if you get the chance!" – Noah Goodhart, Cofounder of <a href="https://moat.com/">Moat</a> (acquired by Oracle)</blockquote>
+<blockquote>"Rob is great! I highly recommend working with him if you get the chance!" – Noah Goodhart, Cofounder of <a href="https://moat.com/">Moat</a> (acquired by Oracle)</blockquote>
 ### Why work with me?
 - My own apps have done over **1 Million Downloads and were acquired**
 - My apps have been featured on Fox Business, IndieHackers, Nola.com and Yahoo!
@@ -26,7 +26,7 @@ title: Build Better Swift & iOS Apps with Rob
 - *Web Development:* Node.js, Angular.js, HTML, CSS, Markdown (this site uses all but Angular)
 - *Deployment & Platforms:*: Heroku, Github, Gitlab, Hexo, Wordpress
 - *Database and services*: MongoDB, Firebase
-- *Scripting:* Mostly Python, some bash
+- *Scripting:* Mostly Python, bash
 - *Other Tools:* Cocoapods, Carthage, Fastlane, Mixpanel, NewRelic, Crashylitics, Flurry, Testflight
 
 ### Testimonials
