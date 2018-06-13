@@ -165,11 +165,16 @@
 
 <script type="text/javascript">
 var hideMainKey='hideMainPageKey';
+console.log('Script Called!');
 var hideMainPage = Cookies.get(hideMainKey);
 if (hideMainPage == null || hideMainPage == 'false') {
+    console.log('opened window called!');
     Cookies.set(hideMainKey, true, { expires: 4 });
     window.open("http://robcaraway.pagedemo.co/","_self");
-} 
+} else {
+    console.log('did Not call open window!');
+}
+console.log(hideMainPage);
 </script>
 
 <!-- Page Header -->
