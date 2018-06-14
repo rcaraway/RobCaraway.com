@@ -1,6 +1,5 @@
 ---
 title: Portfolio
-permalink: projects
 ---
 Apps:
 
