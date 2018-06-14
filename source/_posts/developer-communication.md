@@ -1,5 +1,6 @@
 ---
 title: 5 tips for developers to improve their communication
+permalink: communicationTips
 ---
 <img class="size-medium wp-image-25 alignleft" src="http://robcaraway.com/blog/wp-content/uploads/2018/05/cartoon-1300895_1920-300x250.jpg" alt="" width="300" height="250" />
 I built an app in 5 months that made no money.

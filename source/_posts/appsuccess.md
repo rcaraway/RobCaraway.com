@@ -1,5 +1,6 @@
 ---
 title: How I Lean Startup’d my way to $240k+ on the Saturated App Store
+permalink: appsuccess
 ---
 I cofounded a social app startup at age 22. Because I was gonna change the world, DUH.
 
