@@ -23,7 +23,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Portfolio"/>
+        <meta property="og:title" content="Feature Flagging"/>
     
 
     <!--Open Graph Description-->
@@ -57,7 +57,7 @@
 
     <!-- Title -->
     
-    <title>Portfolio - Rob Caraway</title>
+    <title>Feature Flagging - Rob Caraway</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -145,11 +145,7 @@
 </nav>
 
     <!-- Main Content -->
-    
-
-
-    <section class="main">
-        <!-- Page Header -->
+    <!-- Page Header -->
 <!-- Set your background image for this header in your post front-matter: cover -->
 
 <header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
@@ -157,7 +153,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Portfolio</h1>
+                    <h1>Feature Flagging</h1>
                     
                     <span class="meta">
                         <!-- Date and Author -->
@@ -176,23 +172,82 @@
 
             <!-- Tags and categories -->
            
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/Growth-Engineering/">#Growth Engineering</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
+            
 
             <!-- Gallery -->
             
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Apps:</p>
-<p>Curbside</p>
-<p>GifShare &amp; GifLab</p>
-<p>Moat</p>
-<p>Vault</p>
-<p>Touracle</p>
-<p>Memorandom &amp; Syft</p>
-<p>Other:</p>
-<p>This Website</p>
-<p>Graphical</p>
-<p>GifPicker</p>
+                <blockquote>
+<p>This article is part of the complete <strong><a target="_blank" rel="noopener" href="https://blog.trendcraft.io/Growth-Engineering/">Growth Engineering Guide</a></strong>.</p>
+</blockquote>
+<p><strong>A big change to your app can hurt your revenue</strong> – even with beta testing and focus groups you can’t guarentee humans are going to act on a mass scale the way they acted in a contained environment.  </p>
+<p><mark><strong>Feature Flagging</strong></mark> - hiding a feature or change behind a on/off switch so you can test it more strategically. </p>
+<p>You can even turn it OFF by default, then turn in ON between certain times to test against a limited user base. </p>
+<h6 id="The-Benefits-of-Feature-Flagging"><a href="#The-Benefits-of-Feature-Flagging" class="headerlink" title="The Benefits of Feature Flagging:"></a>The Benefits of Feature Flagging:</h6><ul>
+<li>Launch features to user segments who will be receptive to it</li>
+<li>Hide feature from certain users who won’t benefit from them</li>
+<li>Reduce risk if a feature doesn’t improve your metrics the way you thought</li>
+<li>Test out feature ideas to small groups of your users to test if anyone will use it</li>
+</ul>
+<p>If you think a feature might not work well immediately or to all users, Feature Flagging can save you risk and make you money. </p>
+<p><strong>My Favorite Feature Flagging Software:</strong></p>
+<p>One of my favorite software is <a target="_blank" rel="noopener" href="https://rollout.io">Rollout.io</a> – it has a very forgiving pricing stucture.  For more advance solutions, I’ll write about that in an upcoming post on Advanced Analytics.  Optimizely &amp; Apptemize will fill that role.</p>
+<h6 id="The-Most-Important-Capabilities-of-Feature-Flagging"><a href="#The-Most-Important-Capabilities-of-Feature-Flagging" class="headerlink" title="The Most Important Capabilities of Feature Flagging"></a>The Most Important Capabilities of Feature Flagging</h6><p>Big apps like Snapchat, Instagram, Amazon and more NEVER release to all users at once. My fiance will see a completely different look on the Amazon app while I have been targeted for the old experience. </p>
+<p><strong>Show a Feature based on a Users Characteristics:</strong></p>
+<blockquote>
+<p>If you have an ecommerce app, and they buy products at 8 times more than your average user, you might tag them as a Power User – then test features that Power Users might like that would otherwise alienate a regular user</p>
+</blockquote>
+<p>Rollout.io and other software will allow you to add certain Properties to your users so you can do this.</p>
+<p>Finding creative ways to divide your Users not only reduces risk – you might find certain users ALWAYS prefer a certain experience and other users NEVER want that experience – Feature Flagging can remain permanent.</p>
+<p><strong>Target Users who you know the name of:</strong></p>
+<p>If a user didn’t fit the mold, but asks to opt in, you can target their specific account too.  Rollout supports targeting features by account as do most Feature flagging software.  </p>
+<h6 id="7-Ideas-You-Might-Consider-Feature-Flagging-for"><a href="#7-Ideas-You-Might-Consider-Feature-Flagging-for" class="headerlink" title="7 Ideas You Might Consider Feature Flagging for"></a><em>7 Ideas You Might Consider Feature Flagging for</em></h6><p><strong>Screen size:</strong> If you’re implementing features that might make smaller screens too crowded.<br><strong>Device:</strong> When targeting features that might require high performing devices or features for lower end devices.<br><strong>OS version or browser type:</strong>  When a feature is more likely to work better in a certain browser or operating system.  Example: an AR clothes try on feature for your ecommerce app that uses tech not supported on older version of Droid.<br><strong>Email, username:</strong> You might even randomly add users to test if a feature is ready for full release.<br><strong>The amount of times they opened the app:</strong> You can track properties like “App Opened 5 times” and only show to users who’ve shown they come back.<br><strong>Paying customers only:</strong> Show special features for those who’ve shown they’re willing to pay.<br><strong>The language of the app they’re using:</strong> Some settings and features work better in some markets and not in others.  Why do you think BMW keeps their 3 series station wagons out of the US?  </p>
+<p><mark><strong>Any metric you can measure, you can feature flag.</strong></mark></p>
+<p>I’ve used Feature flags to reduce the risk of optimized code that meant to improve the performance and crash rate of the app by hiding it behind a feature flag. </p>
+<p>You never know when launching to millions of users.   </p>
+<h6 id="How-do-you-know-what-you-should-feature-flag"><a href="#How-do-you-know-what-you-should-feature-flag" class="headerlink" title="How do you know what you should feature flag?"></a><em>How do you know what you should feature flag?</em></h6><p><strong>Just about every new feature should be behind a feature flag</strong> especially if its a bigger feature.  </p>
+<p>Once you get your app to a certain amount of users, every slight change is a risk – your crash free rate going from 99% to 97% might seem like not much, but if you have 500,000 users, that’s 10,000 users now experiencing a crash.  </p>
+<h2 id="Case-Study-Reddit"><a href="#Case-Study-Reddit" class="headerlink" title="Case Study: Reddit"></a><mark>Case Study: Reddit</mark></h2><p>Reddit has one my favorite examples of Feature Flagging of all time.  </p>
+<p>In fact, you can still see it. </p>
+<blockquote>
+<p><strong>The Situation:</strong> They learned from their mobile app that a new design with faster speed and modern design could drastically improve the retention of their app, and they wanted to do this for the web, too.</p>
+</blockquote>
+<blockquote>
+<p><strong>The problem:</strong> a vast majority of their users were loyal to the current web design.  </p>
+</blockquote>
+<p>Even if it wasn’t great, they were using it for years and were married to it.  </p>
+<blockquote>
+<p><strong>The Solution:</strong> Reddit chose to Feature Flag the new design. That’s right – they feature flagged their WHOLE WEBSITE. </p>
+</blockquote>
+<p>They went a step further though.  Users also had to agree to opt into the new experience. </p>
+<p>This gave them several advantages: </p>
+<ul>
+<li>they were able to work out the kinks in the new design with relatively low risk. </li>
+<li>once kinks were ironed out, they could show it to new users who didn’t have experience with the old site</li>
+<li>it kept their old users happy to use their old site as long as they wanted</li>
+</ul>
+<p>Eventually, the new experience became SO much better than the old experience they started aggressively pushing the new version. </p>
+<p>Many old users eventually made the switch when they were ready.</p>
+<p>You can still access both versions:<br>New: reddit.com<br>old: Old.reddit.com</p>
+<p>For new versions that make sweeping changes to a site, you can imagine this to be the new standard.  Showing the new version to a set of users most likely to be okay with it is very important so you don’t alienate everyone.  </p>
+<h3 id="Next-A-B-Testing-Coming-Soon"><a href="#Next-A-B-Testing-Coming-Soon" class="headerlink" title="Next: A/B Testing (Coming Soon)"></a>Next: A/B Testing (Coming Soon)</h3><blockquote>
+<p>This article is part of the complete <strong><a target="_blank" rel="noopener" href="https://blog.trendcraft.io/Growth-Engineering/">Growth Engineering Guide</a></strong>.</p>
+</blockquote>
 
 
                 
@@ -239,12 +294,6 @@
         </div>
     </div>
 </article>
-    </section>
-
-
-
-
-
 
     <!-- Footer -->
     <hr />
