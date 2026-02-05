@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #0085a1;
+  --color-primary-dark: #00657a;
+  --color-body: #404040;
+  --color-heading: #333333;
+  --color-muted: #777777;
+  --font-serif: var(--font-lora);
+  --font-sans: var(--font-open-sans);
+}
+
+body {
+  color: var(--color-body);
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+a {
+  color: var(--color-primary);
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* Prose overrides for blog content */
+.prose h2 {
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+.prose h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose img {
+  border-radius: 0.5rem;
+  margin: 1.5rem auto;
+}
+
+.prose blockquote {
+  border-left-color: var(--color-primary);
+  font-style: italic;
+}
+
+.prose a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
