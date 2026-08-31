@@ -33,6 +33,15 @@ export default function Header() {
               Contact
             </Link>
             <a
+              href="https://substack.com/@robcaraway/notes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="no-underline text-body hover:text-primary transition-colors"
+              style={{ color: "var(--color-body)" }}
+            >
+              Substack
+            </a>
+            <a
               href="https://github.com/rcaraway"
               target="_blank"
               rel="noopener noreferrer"
@@ -70,6 +79,7 @@ export default function Header() {
               <Link href="/blog" className="no-underline px-2 py-1" style={{ color: "var(--color-body)" }} onClick={() => setIsOpen(false)}>Blog</Link>
               <Link href="/projects" className="no-underline px-2 py-1" style={{ color: "var(--color-body)" }} onClick={() => setIsOpen(false)}>Projects</Link>
               <Link href="/contact" className="no-underline px-2 py-1" style={{ color: "var(--color-body)" }} onClick={() => setIsOpen(false)}>Contact</Link>
+              <a href="https://substack.com/@robcaraway/notes" target="_blank" rel="noopener noreferrer" className="no-underline px-2 py-1" style={{ color: "var(--color-body)" }} onClick={() => setIsOpen(false)}>Substack</a>
               <a href="https://github.com/rcaraway" target="_blank" rel="noopener noreferrer" className="no-underline px-2 py-1" style={{ color: "var(--color-body)" }}>GitHub</a>
             </div>
           </div>
